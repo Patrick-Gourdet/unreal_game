@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MyPro.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{5332DBB4-3C12-496C-BACD-1B2CA9DE1C76}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MyPro.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MyProEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{5025ACF6-3FB9-4371-B48C-0E37E0DD033F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MyPro">
+			<UniqueIdentifier>{325109CC-48EA-4CC9-BBA6-0DF4E8ED85F5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MyPro\MyPro.Build.cs">
+			<Filter>Source\MyPro</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MyPro\MyPro.cpp">
+			<Filter>Source\MyPro</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyPro\MyPro.h">
+			<Filter>Source\MyPro</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MyPro\MyProGameModeBase.cpp">
+			<Filter>Source\MyPro</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyPro\MyProGameModeBase.h">
+			<Filter>Source\MyPro</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
